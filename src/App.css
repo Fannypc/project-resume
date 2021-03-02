@@ -1,0 +1,57 @@
+.App {
+  text-align: center;
+}
+
+#basic-navbar-nav .navbar-nav{
+  align-items: center;
+}
+
+@media (min-width: 992px) {
+  .navbar-expandido{
+    flex-flow: column nowrap !important;
+    height: 100vh !important;
+    flex-direction: column !important;
+  }
+  .lista-navbar{
+    flex-direction: column !important;
+  }
+
+  .navbar-expandido .navbar-collapse{
+    align-items: flex-start;
+  } 
+  
+  .row .col-lg-3 .navbar{
+    position: fixed;
+    width: 22%;
+  }
+
+}
+
+@media (max-width: 992px) {
+    .m-0 .col-lg-3{
+      padding: 0;
+    }
+
+    .container-introduccion{
+      height: calc(100vh - 56px);
+    }
+}
+
+#root div .container-app{
+  margin: 0;
+  padding: 0;
+}
+
+
+.primera{
+  background-color: blue;
+}
+
+.segunda{
+  background-color: red;
+}
+
+.btn-intro{
+  z-index: 10;
+  margin-top: 40px;
+}
