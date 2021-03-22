@@ -53,6 +53,12 @@ export function TimelineContenidoComponent(){
                 <div className="timeline-content-container">
                     <h2>Estudiante en Academlo <span>abril 2020 - febrero 2021</span></h2> 
                     <p>Durante los ultimos 10 meses tomé el curso de Desarrollo web full-stack y ciencias de la computación</p>
+                    <p>Los proyectos que desarrolle incluyen lo siguiente:</p>
+                    <ul>
+                        <li>Creación de APIs con Node.js y Express</li>
+                        <li>Front-end con React, Redux, y React-Router</li>
+                        <li>Back-end con Pyhton, Django</li>
+                    </ul>
                 </div>
             </Animated>
             <Animated 
